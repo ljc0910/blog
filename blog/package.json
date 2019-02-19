@@ -1,0 +1,31 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Jc&#39;s personal blog",
+  "author": "ljc0910",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env node server/index.js",
+    "generate": "nuxt generate",
+    "star":"nuxt start"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/proxy": "^1.3.1",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.4.11",
+    "emoji-vue": "^0.2.4",
+    "express": "^4.16.4",
+    "highlight.js": "^9.13.1",
+    "jquery": "^3.3.1",
+    "marked": "^0.6.0",
+    "mavon-editor": "^2.6.17",
+    "normalize.css": "^8.0.1",
+    "nuxt": "^2.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
